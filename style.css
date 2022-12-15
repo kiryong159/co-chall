@@ -1,8 +1,8 @@
 @import "reset.css";
-@import "menubar.css";
-@import "nofix.css";
-@import "topadven.css";
-@import "popular.css";
+@import "1215/menubar.css";
+@import "1215/nofix.css";
+@import "1215/topadven.css";
+@import "1215/popular.css";
 
 main {
   margin: 0px 20px;
