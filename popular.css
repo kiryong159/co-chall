@@ -1,0 +1,19 @@
+.popular {
+  display: flex;
+}
+.popular-img {
+  width: 130px;
+  height: 150px;
+  border-radius: 15px;
+  margin-right: 30px;
+}
+
+.popular-column h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.popular-column h4 {
+  color: rgba(0, 0, 0, 0.2);
+}

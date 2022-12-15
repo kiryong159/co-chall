@@ -1,0 +1,26 @@
+.menubar {
+  padding: 40px 10px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 230, 0);
+}
+
+.menubar-icon {
+  width: 33%;
+  display: flex;
+  justify-content: flex-start;
+}
+.menubar-text {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.menubar .menubar-icon:last-child {
+  display: flex;
+  justify-content: end;
+}

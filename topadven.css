@@ -1,0 +1,21 @@
+.topadven {
+  display: flex;
+  overflow-x: auto;
+}
+
+.topadven-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 35px;
+}
+.topadven-img {
+  width: 90px;
+  height: 110px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.starbox-margin {
+  margin-left: 5px;
+}

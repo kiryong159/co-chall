@@ -1,1 +1,28 @@
 @import "reset.css";
+@import "menubar.css";
+@import "nofix.css";
+@import "topadven.css";
+@import "popular.css";
+
+main {
+  margin: 0px 20px;
+}
+
+.searchbook {
+  background-color: white;
+  padding: 20px 20px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: -30px;
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  margin: 10px 0px;
+  margin-bottom: 25px;
+  font-size: 25px;
+  font-weight: bold;
+}

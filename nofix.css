@@ -1,0 +1,59 @@
+.nofix {
+  display: flex;
+}
+.nofix-img {
+  margin-right: 20px;
+  width: 130px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.nofix-column h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.nofix-column h4 {
+  color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+
+.starbox {
+  color: rgb(255, 230, 0);
+  margin-bottom: 15px;
+}
+.starbox .fa-star:last-child {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.nofix-type {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.nofix-type span {
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: rgb(243, 243, 243);
+}
+
+.nofix-bookmark {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa-bookmark {
+  background-color: rgb(255, 230, 0);
+  border-radius: 50%;
+  padding: 13px;
+  margin-right: 40px;
+}
+
+.nofix-booknow {
+  padding: 10px 35px;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  font-weight: 300;
+  font-size: 12px;
+}
