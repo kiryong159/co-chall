@@ -1,0 +1,31 @@
+.tylerbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30%;
+}
+.tylerbox-img {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 50%;
+  margin-top: 20px;
+}
+
+.tylerbox-img img {
+  box-shadow: -1px 1px 5px 0px rgba(255, 99, 71, 0.411);
+  border-radius: 50%;
+  width: 40%;
+}
+
+.tylerbox-text h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.tylerbox-text h4 {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}

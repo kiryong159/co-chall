@@ -1,0 +1,30 @@
+.shuffle-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shuffle-boder {
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.shuffle-box {
+  background-color: black;
+  color: white;
+  margin-right: 3px;
+  font-size: 15px;
+}
+.heart-box {
+  font-size: 15px;
+  margin-left: 3px;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
+.heart-box .fa-heart {
+  color: black;
+}
