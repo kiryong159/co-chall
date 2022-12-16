@@ -1,0 +1,35 @@
+.playbox {
+  margin: 10px;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  border-radius: 40px;
+  position: absolute;
+  width: 94%;
+  bottom: 0px;
+}
+
+.palybox-column h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+.palybox-column h2 {
+  font-size: 15px;
+}
+
+.palybox-column:nth-child(2) {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.palybox-column .fa-pause {
+  transform: scaleY(1.5);
+}
