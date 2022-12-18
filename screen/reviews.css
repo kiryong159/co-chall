@@ -106,7 +106,7 @@
   font-size: 15px;
   cursor: pointer;
 }
-.reviews-review__go h5 {
+.reviews-review__go a {
   border-bottom: 1px solid var(--b-color);
 }
 .reviews-review__go i {
