@@ -33,3 +33,9 @@
 .palybox-column .fa-pause {
   transform: scaleY(1.5);
 }
+
+@media screen and (min-width: 1200px) {
+  .playbox {
+    width: 97%;
+  }
+}
