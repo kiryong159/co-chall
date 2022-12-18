@@ -107,7 +107,9 @@
   cursor: pointer;
 }
 .reviews-review__go a {
+  color: var(--b-color);
   border-bottom: 1px solid var(--b-color);
+  text-decoration-line: none;
 }
 .reviews-review__go i {
   font-size: 15px;
