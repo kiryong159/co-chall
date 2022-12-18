@@ -1,0 +1,181 @@
+.home-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+.home-header h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.home-header h4 {
+  margin-top: 45px;
+  margin-bottom: 10px;
+}
+
+.home-header h4,
+.home-header h5 {
+  font-size: 25px;
+}
+
+.home-courses {
+  display: flex;
+  flex-direction: column;
+  background-color: #374151;
+  width: 100%;
+  height: 740px;
+  color: white;
+  margin-top: 40px;
+  position: relative;
+  overflow-y: scroll;
+}
+
+.home-courses__header h2 {
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.home-courses__header h3 {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.home-courses__column {
+  display: flex;
+  align-items: center;
+  padding: 30px 70px;
+  margin-bottom: 50px;
+}
+
+.home-courses__img {
+  width: 500px;
+  height: 300px;
+  margin-right: 40px;
+  border-radius: 15px;
+}
+
+.home-courses__text {
+  display: flex;
+  flex-direction: column;
+  width: 545px;
+  height: 300px;
+}
+.home-courses__text h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.home-courses__text ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.home-courses-icon {
+  width: 50px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 3px solid white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-right: 15px;
+}
+.home-courses-TS {
+  background-color: #017acc;
+}
+.home-courses-N {
+  background-color: black;
+  color: white;
+}
+.home-courses-wind {
+  background-color: rgb(0, 252, 210);
+  color: white;
+}
+.home-courses-iconbox {
+  display: flex;
+}
+.home-courses__text li {
+  margin-bottom: 15px;
+}
+.home-courses-TRI {
+  background-color: gray;
+}
+.home-courses__moresee {
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #3b82f6;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  align-items: center;
+  padding: 10px;
+}
+.home-courses__moresee .fa-arrow-right {
+  margin-left: 5px;
+}
+.home-courses__moresee-box {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+
+.home-courses__airbox {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  padding: 20px 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 0px rgb(255, 255, 255);
+}
+.airbox-ts-loaction {
+  position: absolute;
+  bottom: 280px;
+  left: 97px;
+}
+
+.home-courses__airbox h3 {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.airbox-carrot-location {
+  position: absolute;
+  bottom: -130px;
+  left: 97px;
+}
+.airbox-tictok-location {
+  position: absolute;
+  bottom: -550px;
+  left: 97px;
+}
+
+.home-courses-saletime h3 {
+  margin: 10px 0px;
+  font-weight: bold;
+}
+
+.home-courses-saletime-box {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.home-courses-saletime span {
+  border-radius: 10px;
+  margin-right: 5px;
+  padding: 20px 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.saletime-yes {
+  background-color: white;
+  color: #3171ec;
+}
+.saletime-no {
+  background-color: none;
+  color: rgb(180, 180, 180);
+}
