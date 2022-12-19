@@ -57,6 +57,7 @@
   font-weight: bold;
   box-shadow: 0px 2px 3px 1px rgb(0, 0, 0, 0.5);
   margin-bottom: 50px;
+  transition: color 0.5s ease-in-out;
 }
 
 .FAQ-box i {
@@ -74,4 +75,14 @@
   justify-content: start;
   width: 65%;
   color: black;
+  transition: color 0.35s ease-in-out;
+}
+.FAQ-box:hover h3 {
+  background-color: var(--b-color);
+  color: white;
+}
+
+.FAQ-box:hover {
+  background-color: var(--b-color);
+  color: white;
 }

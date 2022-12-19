@@ -103,3 +103,18 @@
     transform: none;
   }
 }
+
+.nav-font-nomal:hover {
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--b-color);
+  text-decoration-line: none;
+}
+
+.nav-img-nomal:hover img {
+  animation: navani2 1s ease infinite;
+}
+
+.nav-bar-user a {
+  text-decoration-line: none;
+}

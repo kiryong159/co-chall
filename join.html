@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" />
-    <title>Log in - 노마드 코더</title>
+    <title>Join - 노마드 코더</title>
   </head>
   <body>
     <main>
@@ -31,17 +31,27 @@
           </li>-->
         </ul>
         <div class="nav-bar-user">
-          <span class="nav-bar-login">Login</span>
+          <a href="index.html" class="nav-bar-login">Login</a>
           <a href="join.html" class="nav-bar-join">Join</a>
         </div>
       </div>
       <header class="index-header">
-        <h1>Log in to Yesmad coders</h1>
+        <h1>Join Yesmad coders</h1>
       </header>
-      <form class="index-form" action="home.html" method="get">
+      <form class="join-index-form" action="home.html" method="get">
+        <label for="join-name">Name</label>
+        <input id="join-name" type="text" required placeholder="Name" />
         <label for="e-mail">Email address</label>
         <input id="e-mail" type="email" required placeholder="E-mail" />
-        <button>Continue</button>
+        <label
+          ><input type="checkbox" required name="이게모임" value="ok" />I agree
+          to the Terms & blabla</label
+        >
+        <label
+          ><input type="checkbox" required name="이게모임" value="ok" />아무튼
+          동의하셔야됨</label
+        >
+        <button>Create Account</button>
       </form>
       <div class="index-or">
         <div class="index-or__line"></div>
@@ -66,12 +76,12 @@
           <i class="fa-solid fa-arrow-right"></i>
         </a>
       </div>
-      <div class="no-mobile-screen">
-        <img src="https://nomadcoders.co/m.svg" />
-        <span>Your Screen Is Small</span>
-        <span>가로 1300 이상 화면에서 크게 봐주세요</span>
-      </div>
     </main>
+    <div class="no-mobile-screen">
+      <img src="https://nomadcoders.co/m.svg" />
+      <span>Your Screen Is Small</span>
+      <span>가로 1300 이상 화면에서 크게 봐주세요</span>
+    </div>
   </body>
   <script
     src="https://kit.fontawesome.com/157b3c4d50.js"
